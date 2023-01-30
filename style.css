@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 7vh;
+}
+
+body {
+  height: 100vh;
+}
+
+.banner {
+  background: url("./img/banner2.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: bisque;
+  height: 100vh;
+}
+
+i {
+  color: rgb(255, 0, 0);
+}
+
+a.media {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact {
+  background: url("./img/map.jpeg") no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #eee;
+}
